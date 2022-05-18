@@ -18,6 +18,7 @@ def sphere_intersect(center, radius, ray_origin, ray_direction):
             return min(t1, t2)
     return None
 # fkfkf
+#sdfsdfs
 def nearest_intersected_object(objects, ray_origin, ray_direction):
     distances = [sphere_intersect(obj['center'], obj['radius'], ray_origin, ray_direction) for obj in objects]
     nearest_object = None
